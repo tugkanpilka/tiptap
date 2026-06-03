@@ -1,5 +1,505 @@
 # Releases
 
+## v3.26.0
+
+### @tiptap/extension-blockquote
+
+#### Minor Changes
+
+- 155a613: Backspace at the start of a non-first child of a blockquote now lifts that child out, splitting the blockquote around it. A second backspace at the start of a top-level textblock whose previous sibling is a blockquote merges the textblock's inline content into the blockquote's last textblock instead of pulling the paragraph back inside.
+
+#### Patch Changes
+
+- @tiptap/core@3.26.0
+
+### @tiptap/extension-character-count
+
+#### Patch Changes
+
+- @tiptap/extensions@3.26.0
+
+### @tiptap/extension-dropcursor
+
+#### Patch Changes
+
+- @tiptap/extensions@3.26.0
+
+### @tiptap/extension-focus
+
+#### Patch Changes
+
+- @tiptap/extensions@3.26.0
+
+### @tiptap/extension-gapcursor
+
+#### Patch Changes
+
+- @tiptap/extensions@3.26.0
+
+### @tiptap/extension-history
+
+#### Patch Changes
+
+- @tiptap/extensions@3.26.0
+
+### @tiptap/extension-list-item
+
+#### Patch Changes
+
+- @tiptap/extension-list@3.26.0
+
+### @tiptap/extension-list-keymap
+
+#### Patch Changes
+
+- @tiptap/extension-list@3.26.0
+
+### @tiptap/extension-placeholder
+
+#### Patch Changes
+
+- @tiptap/extensions@3.26.0
+
+### @tiptap/extension-table-cell
+
+#### Patch Changes
+
+- @tiptap/extension-table@3.26.0
+
+### @tiptap/extension-table-header
+
+#### Patch Changes
+
+- @tiptap/extension-table@3.26.0
+
+### @tiptap/extension-table-row
+
+#### Patch Changes
+
+- @tiptap/extension-table@3.26.0
+
+### @tiptap/extension-task-item
+
+#### Patch Changes
+
+- @tiptap/extension-list@3.26.0
+
+### @tiptap/extension-task-list
+
+#### Patch Changes
+
+- @tiptap/extension-list@3.26.0
+
+### @tiptap/core
+
+#### Patch Changes
+
+- @tiptap/pm@3.26.0
+
+### @tiptap/extension-audio
+
+#### Patch Changes
+
+- @tiptap/core@3.26.0
+
+### @tiptap/extension-bold
+
+#### Patch Changes
+
+- @tiptap/core@3.26.0
+
+### @tiptap/extension-bubble-menu
+
+#### Patch Changes
+
+- @tiptap/core@3.26.0
+  - @tiptap/pm@3.26.0
+
+### @tiptap/extension-bullet-list
+
+#### Patch Changes
+
+- @tiptap/extension-list@3.26.0
+
+### @tiptap/extension-code
+
+#### Patch Changes
+
+- @tiptap/core@3.26.0
+
+### @tiptap/extension-code-block
+
+#### Patch Changes
+
+- @tiptap/core@3.26.0
+  - @tiptap/pm@3.26.0
+
+### @tiptap/extension-code-block-lowlight
+
+#### Patch Changes
+
+- @tiptap/core@3.26.0
+  - @tiptap/extension-code-block@3.26.0
+  - @tiptap/pm@3.26.0
+
+### @tiptap/extension-collaboration
+
+#### Patch Changes
+
+- @tiptap/core@3.26.0
+  - @tiptap/pm@3.26.0
+
+### @tiptap/extension-collaboration-caret
+
+#### Patch Changes
+
+- @tiptap/core@3.26.0
+  - @tiptap/pm@3.26.0
+
+### @tiptap/extension-color
+
+#### Patch Changes
+
+- @tiptap/extension-text-style@3.26.0
+
+### @tiptap/extension-details
+
+#### Patch Changes
+
+- @tiptap/core@3.26.0
+  - @tiptap/extension-text-style@3.26.0
+  - @tiptap/pm@3.26.0
+
+### @tiptap/extension-document
+
+#### Patch Changes
+
+- @tiptap/core@3.26.0
+
+### @tiptap/extension-drag-handle
+
+#### Patch Changes
+
+- @tiptap/core@3.26.0
+  - @tiptap/extension-collaboration@3.26.0
+  - @tiptap/extension-node-range@3.26.0
+  - @tiptap/pm@3.26.0
+
+### @tiptap/extension-drag-handle-react
+
+#### Patch Changes
+
+- @tiptap/extension-drag-handle@3.26.0
+  - @tiptap/pm@3.26.0
+  - @tiptap/react@3.26.0
+
+### @tiptap/extension-drag-handle-vue-2
+
+#### Patch Changes
+
+- @tiptap/extension-drag-handle@3.26.0
+  - @tiptap/pm@3.26.0
+  - @tiptap/vue-2@3.26.0
+
+### @tiptap/extension-drag-handle-vue-3
+
+#### Patch Changes
+
+- @tiptap/extension-drag-handle@3.26.0
+  - @tiptap/pm@3.26.0
+  - @tiptap/vue-3@3.26.0
+
+### @tiptap/extension-emoji
+
+#### Patch Changes
+
+- @tiptap/core@3.26.0
+  - @tiptap/pm@3.26.0
+  - @tiptap/suggestion@3.26.0
+
+### @tiptap/extension-file-handler
+
+#### Patch Changes
+
+- @tiptap/core@3.26.0
+  - @tiptap/extension-text-style@3.26.0
+  - @tiptap/pm@3.26.0
+
+### @tiptap/extension-floating-menu
+
+#### Patch Changes
+
+- @tiptap/core@3.26.0
+  - @tiptap/pm@3.26.0
+
+### @tiptap/extension-font-family
+
+#### Patch Changes
+
+- @tiptap/extension-text-style@3.26.0
+
+### @tiptap/extension-hard-break
+
+#### Patch Changes
+
+- @tiptap/core@3.26.0
+
+### @tiptap/extension-heading
+
+#### Patch Changes
+
+- @tiptap/core@3.26.0
+
+### @tiptap/extension-highlight
+
+#### Patch Changes
+
+- @tiptap/core@3.26.0
+
+### @tiptap/extension-horizontal-rule
+
+#### Patch Changes
+
+- @tiptap/core@3.26.0
+  - @tiptap/pm@3.26.0
+
+### @tiptap/extension-image
+
+#### Patch Changes
+
+- @tiptap/core@3.26.0
+
+### @tiptap/extension-invisible-characters
+
+#### Patch Changes
+
+- @tiptap/core@3.26.0
+  - @tiptap/extension-text-style@3.26.0
+  - @tiptap/pm@3.26.0
+
+### @tiptap/extension-italic
+
+#### Patch Changes
+
+- @tiptap/core@3.26.0
+
+### @tiptap/extension-link
+
+#### Patch Changes
+
+- @tiptap/core@3.26.0
+  - @tiptap/pm@3.26.0
+
+### @tiptap/extension-list
+
+#### Patch Changes
+
+- @tiptap/core@3.26.0
+  - @tiptap/pm@3.26.0
+
+### @tiptap/extension-mathematics
+
+#### Patch Changes
+
+- @tiptap/core@3.26.0
+  - @tiptap/pm@3.26.0
+
+### @tiptap/extension-mention
+
+#### Patch Changes
+
+- @tiptap/core@3.26.0
+  - @tiptap/pm@3.26.0
+  - @tiptap/suggestion@3.26.0
+
+### @tiptap/extension-node-range
+
+#### Patch Changes
+
+- @tiptap/core@3.26.0
+  - @tiptap/pm@3.26.0
+
+### @tiptap/extension-ordered-list
+
+#### Patch Changes
+
+- @tiptap/extension-list@3.26.0
+
+### @tiptap/extension-paragraph
+
+#### Patch Changes
+
+- @tiptap/core@3.26.0
+
+### @tiptap/extension-strike
+
+#### Patch Changes
+
+- @tiptap/core@3.26.0
+
+### @tiptap/extension-subscript
+
+#### Patch Changes
+
+- @tiptap/core@3.26.0
+  - @tiptap/pm@3.26.0
+
+### @tiptap/extension-superscript
+
+#### Patch Changes
+
+- @tiptap/core@3.26.0
+  - @tiptap/pm@3.26.0
+
+### @tiptap/extension-table
+
+#### Patch Changes
+
+- @tiptap/core@3.26.0
+  - @tiptap/pm@3.26.0
+
+### @tiptap/extension-table-of-contents
+
+#### Patch Changes
+
+- @tiptap/core@3.26.0
+  - @tiptap/pm@3.26.0
+
+### @tiptap/extension-text
+
+#### Patch Changes
+
+- @tiptap/core@3.26.0
+
+### @tiptap/extension-text-align
+
+#### Patch Changes
+
+- @tiptap/core@3.26.0
+
+### @tiptap/extension-text-style
+
+#### Patch Changes
+
+- @tiptap/core@3.26.0
+
+### @tiptap/extension-twitch
+
+#### Patch Changes
+
+- @tiptap/core@3.26.0
+
+### @tiptap/extension-typography
+
+#### Patch Changes
+
+- @tiptap/core@3.26.0
+
+### @tiptap/extension-underline
+
+#### Patch Changes
+
+- @tiptap/core@3.26.0
+
+### @tiptap/extension-unique-id
+
+#### Patch Changes
+
+- @tiptap/core@3.26.0
+  - @tiptap/pm@3.26.0
+
+### @tiptap/extension-youtube
+
+#### Patch Changes
+
+- @tiptap/core@3.26.0
+
+### @tiptap/extensions
+
+#### Patch Changes
+
+- @tiptap/core@3.26.0
+  - @tiptap/pm@3.26.0
+
+### @tiptap/html
+
+#### Patch Changes
+
+- @tiptap/core@3.26.0
+  - @tiptap/pm@3.26.0
+
+### @tiptap/markdown
+
+#### Patch Changes
+
+- @tiptap/core@3.26.0
+  - @tiptap/pm@3.26.0
+
+### @tiptap/react
+
+#### Patch Changes
+
+- @tiptap/core@3.26.0
+  - @tiptap/pm@3.26.0
+
+### @tiptap/starter-kit
+
+#### Patch Changes
+
+- Updated dependencies [155a613]
+  - @tiptap/extension-blockquote@3.26.0
+  - @tiptap/extension-dropcursor@3.26.0
+  - @tiptap/extension-gapcursor@3.26.0
+  - @tiptap/extension-list-item@3.26.0
+  - @tiptap/extension-list-keymap@3.26.0
+  - @tiptap/core@3.26.0
+  - @tiptap/extension-bold@3.26.0
+  - @tiptap/extension-bullet-list@3.26.0
+  - @tiptap/extension-code@3.26.0
+  - @tiptap/extension-code-block@3.26.0
+  - @tiptap/extension-document@3.26.0
+  - @tiptap/extension-hard-break@3.26.0
+  - @tiptap/extension-heading@3.26.0
+  - @tiptap/extension-horizontal-rule@3.26.0
+  - @tiptap/extension-italic@3.26.0
+  - @tiptap/extension-link@3.26.0
+  - @tiptap/extension-list@3.26.0
+  - @tiptap/extension-ordered-list@3.26.0
+  - @tiptap/extension-paragraph@3.26.0
+  - @tiptap/extension-strike@3.26.0
+  - @tiptap/extension-text@3.26.0
+  - @tiptap/extension-underline@3.26.0
+  - @tiptap/extensions@3.26.0
+  - @tiptap/pm@3.26.0
+
+### @tiptap/static-renderer
+
+#### Patch Changes
+
+- @tiptap/core@3.26.0
+  - @tiptap/pm@3.26.0
+
+### @tiptap/suggestion
+
+#### Patch Changes
+
+- @tiptap/core@3.26.0
+  - @tiptap/pm@3.26.0
+
+### @tiptap/vue-2
+
+#### Patch Changes
+
+- @tiptap/core@3.26.0
+  - @tiptap/pm@3.26.0
+
+### @tiptap/vue-3
+
+#### Patch Changes
+
+- @tiptap/core@3.26.0
+  - @tiptap/pm@3.26.0
+
 ## v3.25.0
 
 ### @tiptap/core
